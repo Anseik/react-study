@@ -28,6 +28,14 @@ const useStyles = makeStyles((theme) => ({
   footer: {
     backgroundColor: theme.palette.background.paper,
     padding: '50px 0'
+  },
+  field: {
+    marginTop: 20,
+    marginBottom: 20,
+    display: 'block',
+  },
+  active: {
+    backgroundColor: 'red',
   }
 }))
 
